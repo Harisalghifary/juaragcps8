@@ -85,3 +85,7 @@ Use Case for cloud functions:
 - Lightweight APIs
 - Mobile Backend
 - IoT
+
+### Google Cloud Pub/Sub
+
+> Google Cloud Pub/Sub is a messaging service for exchanging event data among applications and services. A producer of data publishes messages to a Cloud Pub/Sub topic. A consumer creates a subscription to that topic.
