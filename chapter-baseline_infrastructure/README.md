@@ -1,4 +1,4 @@
-## Cloud Storage
+## Google Cloud
 
 ### Bucket
 
@@ -21,9 +21,23 @@
   - Also, for DNS compliance and future compatibility, you should not use underscores (\_) or have a period adjacent to another period or dash. For example, ".." or "-." or ".-" are not valid in DNS names.
 
 - Bucket storage class :
+
   - Standard (short-term and frequently access)
   - Nearline (backup and data accessed < once a month)
   - Coldline (disaster recovery and data accessed < once a quarter)
   - Archive (long-term digital preservation and data accessed < once a year)</br>
 
+- Bucket Access Control
+  - Uniform (only bucket-level permissions(IAM))
+  - Fine-grained (object-level permissions(ACLs))
+
 Access file when publicy access has a format url : `storage.googleapis.com/<BUCKET_NAME>/<FILE_NAME>`
+
+### Cloud Shell Terminal
+
+Syntax:</br>
+
+- `gcloud <commands>`
+- `gsutil <commands>`
+
+Please read here for further information [gcloud CLI documentation](https://cloud.google.com/sdk/gcloud).
