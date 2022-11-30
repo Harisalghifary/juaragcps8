@@ -56,3 +56,32 @@ Basic Role : </br>
 
 - Grant Access
 - Remove Access
+
+### Cloud Monitoring
+
+> Provides visibility into the performance, uptime, and overall health of cloud-powered applications. Collects metrics, events, and metadata from Google Cloud, AWS, and many others. Cloud Monitoring alerting helps to collaborate by integrating with many tools like slack, etc.
+
+Cloud Monitoring have 2 aspect:
+
+- Agent
+- Dashboard
+
+Please read this full [Cloud Monitoring Documentation](https://cloud.google.com/monitoring/docs#).
+
+### Cloud Functions
+
+> Cloud Functions is a serverless execution environment for building and connecting cloud services. It written in Javascript and executed in a Node.js environment on Google Cloud.
+
+Events, things that happen in your cloud environment. These might be like change to data in a database, file added to a storage system, or a new virtual machine instance being created.
+
+Triggers, a declaration that you are interested in a certain event or set of events.
+
+Read documentation [Events and Triggers](https://cloud.google.com/functions/docs/concepts/events-triggers).
+
+Use Case for cloud functions:
+
+- Data Processing/ ETL
+- Webhooks
+- Lightweight APIs
+- Mobile Backend
+- IoT
